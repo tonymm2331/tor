@@ -9,13 +9,14 @@
 #define PROXYPORT 9050
 
 
-/*
- *
- * +----+----+----+----+----+----+----+----+----+----+....+----+
-		| VN | CD | DSTPORT |      DSTIP        | USERID       |NULL|
-		+----+----+----+----+----+----+----+----+----+----+....+----+
- *
- *
- *
- */
+typedef unsigned char int8;
+typedef unsigned short int int16;
+typedef unsigned int int32;
+
+
+
+struct proxy_request{
+    
+}
+
 
